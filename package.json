@@ -1,0 +1,28 @@
+{
+  "name": "ioredis-pool",
+  "version": "1.0.0",
+  "description": "A node.js connection pool for ioredis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuyingfengsui/ioredis-pool.git"
+  },
+  "keywords": [
+    "redis",
+    "pool",
+    "cluster"
+  ],
+  "author": "wuyingfengsui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuyingfengsui/ioredis-pool/issues"
+  },
+  "homepage": "https://github.com/wuyingfengsui/ioredis-pool",
+  "dependencies": {
+    "ioredis": "^1.7.6",
+    "lodash": "^3.10.1"
+  }
+}
