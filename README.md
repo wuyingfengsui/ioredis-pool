@@ -14,7 +14,7 @@ npm install ioredis-pool
 
 ## Quick start
 ```js
-var RedisCluster = require('../');
+var RedisCluster = require('ioredis-pool');
 
 var redis = new RedisCluster([
 	{name: 'localhost', host: 'localhost', port: 6379},
