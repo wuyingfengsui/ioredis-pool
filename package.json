@@ -1,6 +1,6 @@
 {
   "name": "ioredis-pool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node.js connection pool for ioredis.",
   "main": "index.js",
   "scripts": {
