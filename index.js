@@ -19,7 +19,7 @@ util.inherits(RedisCluster, EventEmitter);
 
 RedisCluster.prototype.connect = function() {
 	this.startupNodes.forEach(function(options) {
-		this.nodes[options.name] = new Redis({port: options.port, host: options.host, enableReadyCheck: false});
+		this.nodes[options.name] = new Redis(options);
 	}, this);
 };
 
